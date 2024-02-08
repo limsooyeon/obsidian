@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ygy/causal-inference-for-the-brave-and-true/15-synthetic-control/"}
+{"dg-publish":true,"permalink":"/ygy/Causal Inference for the Brave and True/15-Synthetic Control/"}
 ---
 
 
@@ -63,7 +63,7 @@ cigar = (pd.read_csv("data/smoking.csv")
 cigar.query("california").head()
 
 ```
-![스크린샷 2024-02-08 오전 12.24.09.png|500](/img/user/media/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-02-08%20%EC%98%A4%EC%A0%84%2012.24.09.png)
+![[스크린샷 2024-02-08 오전 12.24.09.png\|500]]
 - `state` : 주 index (캘리포니아 : 3)
 - `retprice` : 담배 소매 가격
 - `cigsale` : 1인당 담배 한갑 판매량 ← 결과변수
